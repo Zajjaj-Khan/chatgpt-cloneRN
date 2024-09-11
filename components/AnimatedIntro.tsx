@@ -98,7 +98,7 @@ const AnimatedIntro = () => {
       () => ({
         backgroundColor: interpolateColor(
           currentX.value,
-          [half, half + labelWidth.value / 2],
+          [half, half + labelWidth.value/2],
           [content[newColorIndex.value].bg, content[currentIndex.value].bg],
           'RGB'
         ),
